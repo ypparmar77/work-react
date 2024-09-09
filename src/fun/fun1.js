@@ -23,7 +23,7 @@ export default class Fun1 extends Component {
 
 
     render() {
-        return (
+        return ( 
             <>
                 <h3>cont: {this.state.cont}</h3>  {/* h3 tag change nathi karyo */}
                 <button onClick={() => this.Abcd()}>ok</button>  {/* Button ma Abcd method call */}
